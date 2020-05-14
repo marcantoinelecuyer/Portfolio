@@ -1,0 +1,31 @@
+.projects{
+  align-self: center;
+  justify-self: stretch;
+
+  #projectList a {
+    animation: zoomOut .5s forwards;
+    color:$pink;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 15px;
+    text-decoration: none;
+  }
+
+  #projectList a:hover{
+    animation: zoomIn .5s forwards;
+  }
+  #projectList{
+    list-style-type: none;
+    display: block;
+
+    li{
+      margin: 5%;
+    }
+  }
+  .title{
+
+    background-color: red;
+    display: block;
+    font-size: 5em;
+  }
+}

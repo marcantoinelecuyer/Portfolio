@@ -1,0 +1,16 @@
+.hamburger{
+  position:fixed;
+  margin: 2vw 0 0 2vw;
+
+  button{
+    background-color: transparent;
+    border:none;
+    animation: quitHover .5s ease-out forwards;
+  }
+  button:hover{
+    animation: hover .5s ease-out forwards;
+  }
+  img{
+    width: 2vw;
+  }
+}

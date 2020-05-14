@@ -1,0 +1,43 @@
+#projectPage{
+  display: none;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: auto 8%;
+  height:100vh;
+
+  .bg{
+    align-self: center;
+    animation: hover 15s ease-out forwards;
+    animation-play-state: initial;
+    justify-self: center;
+    opacity: .3;
+    position:fixed;
+    width:100vw;
+  }
+  .projects{
+    animation: fadeIn-slide .8s ease-out forwards;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  h3{
+    animation: fadeIn-slide 1.2s ease-out forwards;
+    color:$pink;
+    font-weight: 600;
+    font-size: 1.1em;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    letter-spacing: 5px;
+  }
+
+  #openProject{
+    animation: slideUp 1s ease-out forwards;
+    background-color: $brain_clear;
+    border:solid $pink 1px;
+    box-sizing: border-box;
+    display: none;
+    height: 0;
+    margin-top: 60vh;
+    position: absolute;
+    width: 100vw;
+  }
+}
+

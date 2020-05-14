@@ -1,0 +1,18 @@
+.mainLogo{
+  margin-right:20%;
+
+  img{
+    position:absolute;
+    width: 20vw;
+  }
+  #m{
+    animation: mainLogoM 1.5s ease-out forwards;
+    margin-left: .1%;
+    margin-top: 10%;
+
+  }
+  #a{
+    animation: mainLogoA 2s ease-out forwards;
+    margin-top: 20%;
+  }
+}
